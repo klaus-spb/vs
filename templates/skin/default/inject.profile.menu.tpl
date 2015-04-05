@@ -1,0 +1,2 @@
+{if $aPlayercards}<li {if $sAction=='profile' && ($aParams[0]=='teamplay')}class="active"{/if}><a href="{$oUserProfile->getUserWebPath()}teamplay/">Teamplay</a></li>{/if}
+{if $aTopicInterviews}<li {if $sAction=='profile' && ($aParams[0]=='interview')}class="active"{/if}><a href="{$oUserProfile->getUserWebPath()}interview/">Интервью ({$aTopicInterviews|count})</a></li>{/if}
